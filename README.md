@@ -1,103 +1,35 @@
-<h1 align=center>Hugo PaperMod | <a href="https://adityatelange.github.io/hugo-PaperMod/" rel="nofollow">Demo</a></h1>
+<h1 align=center>Kamigo</a></h1>
 
-<h4 align=center>☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive</h4>
-<br>
+<h4 align=center>🚀 Fast | ☁️ Fluent | 🧹 Clean | 🤗 Comfortable | ✨ Smooth | 📱 Responsive | 🛡️ Hardened</h4>
 
-> Hugo PaperMod is a theme based on [hugo-paper](https://github.com/nanxiaobei/hugo-paper).
-> The goal of this project is to add more features and customization to the og theme.
+> ***Kamigo***, comes from the [Japanese](https://en.wikipedia.org/wiki/Japan "Japan @ Wikipedia") word ***kami*** (`紙`) which means paper and ***go*** which is from [Hugo](https://gohugo.io/ "Static Site Generator (SSG)") or [Go language](https://go.dev/). <abbr title="For Your Information">FYI</abbr>: `上紙` in [*kanji*](https://en.wikipedia.org/wiki/Kanji "Kanji @ Wikipedia"),  *[kana](https://en.wikipedia.org/wiki/Kana "Kana @ Wikipedia") reading:* `うわがみ` in [*hiragana*](https://en.wikipedia.org/wiki/Hiragana "Hiragana @ Wikipedia") or in *[rōmaji](https://en.wikipedia.org/wiki/Romanization_of_Japanese "Romanization of Japanese @ Wikipedia"):* `uwagami` it also means [paper cover, wrapping paper](https://www.nihongomaster.com/japanese/dictionary/word/33804/uwagami-%E4%B8%8A%E7%B4%99-%E3%81%86%E3%82%8F%E3%81%8C%E3%81%BF).
 
-**Documentation** can be found here: [**📚 Wiki**](https://github.com/adityatelange/hugo-PaperMod/wiki)
+***Kamigo*** is a modified version of [hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod) which is a fork of [hugo-paper](https://github.com/nanxiaobei/hugo-paper), it aims at adding new features, customization, improving code quality, [UI](https://en.wikipedia.org/wiki/User_interface_design "User interface design @ Wikipedia")/[UX](https://en.wikipedia.org/wiki/User_experience_design "User experience design @ Wikipedia") improvement, and security improvement or [hardening](https://en.wikipedia.org/wiki/Hardening_(computing) "Hardening (computing) @ Wikipedia") to the original/previous mod theme.
 
-**ExampleSite** can be found here: [**exampleSite**](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite). Demo is built up with [exampleSite](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite) as source.
+## Features and changes
 
-[![hugo-papermod](https://img.shields.io/badge/Hugo--Themes-@PaperMod-blue)](https://themes.gohugo.io/themes/hugo-papermod/)
-[![Minimum Hugo Version](https://img.shields.io/static/v1?label=HUGO-version&message=>0.97.1&color=blue&logo=hugo)](https://github.com/gohugoio/hugo/releases/tag/v0.97.1)
-[![Discord](https://img.shields.io/discord/971046860317921340?label=Discord&logo=discord)](https://discord.gg/ahpmTvhVmp)
-[![GitHub](https://img.shields.io/github/license/adityatelange/hugo-PaperMod)](https://github.com/adityatelange/hugo-PaperMod/blob/master/LICENSE)
-![code-size](https://img.shields.io/github/languages/code-size/adityatelange/hugo-PaperMod)
+- Table of Contents (ToC) floating on the side
+- [InstantClick](http://instantclick.io/) integration
+- Remove inline JavaScript
+- Improved YouTube shortcode
+- Built-in [Chroma](https://github.com/alecthomas/chroma) instead of client-side syntax highlighting with [HLJS](https://highlightjs.org/)
+- Responsive "[hamburger](https://en.wikipedia.org/wiki/Hamburger_button)" menu for mobile
+- Simple reading progress bar
+- Social icons from [Simple Icons](https://simpleicons.org/)
+- Opinionated UI/UX enhancements
 
----
+## Credits
 
-<p align="center">
-  <kbd><img src="https://user-images.githubusercontent.com/21258296/114303440-bfc0ae80-9aeb-11eb-8cfa-48a4bb385a6d.png" alt="Mockup image" title="Mockup"/></kbd>
-</p>
+Additional credits:
 
----
+- [Paper](https://github.com/nanxiaobei/hugo-paper) by [nanxiaobei](https://github.com/nanxiaobei)
+- [PaperMod](https://github.com/adityatelange/hugo-PaperMod) by [Aditya Telange](https://github.com/adityatelange)
+- [PaperModX](https://github.com/reorx/hugo-PaperModX) by [Reorx](https://github.com/reorx)
+- [WonderMod](https://github.com/Wonderfall/hugo-WonderMod) by [Wonderfall](https://github.com/Wonderfall)
+- [PaperNord](https://github.com/rv178/PaperNord) by [rv178](https://github.com/rv178/)
 
-## Features/Mods 💥
+> *Note:* Most of the code is cherry-picked from the above themes, and some of them are modified to fit the needs of this theme. The code is also modified to improve code quality, security, and UI/UX. Credits to the original authors.
 
--   Uses Hugo's asset generator with pipelining, fingerprinting, bundling and minification by default.
--   3 Modes:
-    -   [Regular Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#regular-mode-default-mode)
-    -   [Home-Info Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#home-info-mode)
-    -   [Profile Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode)
--   Table of Content Generation (newer implementation).
--   Archive of posts.
--   Social Icons (home-info and profile-mode)
--   Social-Media Share buttons on posts.
--   Menu location indicator.
--   Multilingual support. (with language selector)
--   Taxonomies
--   Cover image for each post (with Responsive image support).
--   Light/Dark theme (automatic theme switch a/c to browser theme and theme-switch button).
--   SEO Friendly.
--   Multiple Author support.
--   Search Page with Fuse.js
--   Other Posts suggestion below a post
--   Breadcrumb Navigation
--   Code Block Copy buttons
--   No webpack, nodejs and other dependencies are required to edit the theme.
+## License
 
-Read Wiki For More Details => **[PaperMod - Features](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)**
-
----
-
-## Install/Update 📥
-
-Read Wiki For More Details => **[PaperMod - Installation](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation)**
-
----
-
-## FAQs / How To's Guide 🙋
-
-Read Wiki For More Details => **[PaperMod-FAQs](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs)**
-
----
-
-## Social-Icons/Share-Icons 🖼️
-
-Read Wiki For More Details => **[PaperMod-Icons](https://github.com/adityatelange/hugo-PaperMod/wiki/Icons)**
-
----
-
-## Release Changelog 📃
-
-Release ChangeLog has info about stuff added: **[Releases](https://github.com/adityatelange/hugo-PaperMod/releases)**
-
----
-
-## [Pagespeed Insights (100% ?)](https://pagespeed.web.dev/report?url=https://adityatelange.github.io/hugo-PaperMod/) 👀
-
----
-
-## Support 🫶
-
--   Star 🌟 this repository.
--   Help spread the word about PaperMod by sharing it on social media and recommending it to your friends. 🗣️
--   You can also sponsor 🏅 on [Github Sponsors](https://github.com/sponsors/adityatelange) / [Ko-Fi](https://ko-fi.com/adityatelange).
-
----
-
-## Special Thanks 🌟
-
--   [**Highlight.js**](https://github.com/highlightjs/highlight.js)
--   [**Fuse.js**](https://github.com/krisk/fuse)
--   [**Feather Icons**](https://github.com/feathericons/feather)
--   [**Simple Icons**](https://github.com/simple-icons/simple-icons)
--   **All Contributors and Supporters**
-
----
-
-## Stargazers over time 📈
-
-<kbd>[![Stargazers over time](https://starchart.cc/adityatelange/hugo-PaperMod.svg)](https://starchart.cc/adityatelange/hugo-PaperMod)</kbd>
+This content is licensed under the terms of the [MIT](./LICENSE) license.

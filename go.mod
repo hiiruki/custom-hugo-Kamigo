@@ -1,3 +1,3 @@
-module github.com/adityatelange/hugo-PaperMod
+module github.com/hiiruki/hugo-Kamigo
 
 go 1.12
